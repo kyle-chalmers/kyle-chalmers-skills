@@ -39,7 +39,7 @@ Live reviewer authentication and live installations of the external suites are n
 - Source repository moved notices and archival: verified for next-session-prompt, ai-friend-review, and skill-chain on October 21, 2026.
 - Data AI Reference migration pointers: published in the coding tips and Meeting Transcript to Jira READMEs; broader examples remain active.
 - Legacy marketplace pointer: published. Its existing identifier and four suite entries are preserved; the consolidated collection and Healwright are now also available.
-- Live YouTube descriptions: unchanged; exact replacements require a fresh live read and review.
+- YouTube description migration: all nine approved descriptions saved in the private content repository. Six live updates verified on October 22, 2026; one save awaits verification and two updates remain pending. The [description update map](videos.md#youtube-description-updates) lists the status of all five full-length videos and four Shorts. Verification records stay in the private content repository.
 
 All 43 offline tests pass. Both plugin manifests pass strict validation. [GitHub Actions validation](https://github.com/kyle-chalmers/kyle-chalmers-skills/actions/runs/39730198236) passed after the initial publication.
 
