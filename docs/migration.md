@@ -35,8 +35,12 @@ Live reviewer authentication and live installations of the external suites are n
 ## Status
 
 - New public repository: created.
-- Six portable skills: packaged; validation pending.
-- Source repository moved notices and archival: pending.
-- Data AI Reference migration pointers: pending.
-- Legacy marketplace pointer: pending.
+- Six portable skills: published with source provenance and validated.
+- Source repository moved notices and archival: verified for next-session-prompt, ai-friend-review, and skill-chain on October 21, 2026.
+- Data AI Reference migration pointers: published in the coding tips and Meeting Transcript to Jira READMEs; broader examples remain active.
+- Legacy marketplace pointer: published. Its existing identifier and four suite entries are preserved; the consolidated collection and Healwright are now also available.
 - Live YouTube descriptions: unchanged; exact replacements require a fresh live read and review.
+
+All 43 offline tests pass. Both plugin manifests pass strict validation. [GitHub Actions validation](https://github.com/kyle-chalmers/kyle-chalmers-skills/actions/runs/39730198236) passed after the initial publication.
+
+The standalone AI Friend Review repository had one open compatibility report. It remains readable at its original URL, and the outstanding items are tracked in [the consolidated repository issue](https://github.com/kyle-chalmers/kyle-chalmers-skills/issues/1). No claim is made that these inherited CLI compatibility reports were resolved by moving the files.

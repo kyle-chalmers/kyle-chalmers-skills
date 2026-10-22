@@ -64,6 +64,8 @@ These are maintained with their implementation, tests, and release process in th
 
 For example, install `/plugin install streamsnow@kyle-chalmers-skills` after adding this marketplace. Refer to each suite's README for its runtime and setup requirements. AI Friend Review also needs configured reviewer CLIs; installing its skill does not install those programs. Meeting to Tickets drafts for human review and does not write to a tracker.
 
+AI Friend Review has an [inherited CLI compatibility report](https://github.com/kyle-chalmers/kyle-chalmers-skills/issues/1) to verify. Offline tests exercise fake CLIs and do not establish compatibility with every installed reviewer version.
+
 ## Tutorials and migration
 
 - [Related videos and the links affected by consolidation](docs/videos.md)
