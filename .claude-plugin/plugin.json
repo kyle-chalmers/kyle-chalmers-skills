@@ -1,0 +1,12 @@
+{
+  "name": "kyle-chalmers-skills",
+  "version": "1.0.0",
+  "description": "Portable skills for coding workflows, session handoffs, workflow design, and meeting follow-ups.",
+  "author": {
+    "name": "Kyle Chalmers",
+    "url": "https://kclabs.ai"
+  },
+  "homepage": "https://github.com/kyle-chalmers/kyle-chalmers-skills",
+  "repository": "https://github.com/kyle-chalmers/kyle-chalmers-skills",
+  "license": "MIT"
+}

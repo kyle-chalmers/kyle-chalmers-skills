@@ -1,0 +1,56 @@
+{
+  "name": "kyle-chalmers-skills",
+  "owner": {
+    "name": "Kyle Chalmers"
+  },
+  "metadata": {
+    "description": "Public skills and independently maintained data workflow suites by Kyle Chalmers."
+  },
+  "plugins": [
+    {
+      "name": "kyle-chalmers-skills",
+      "source": "./",
+      "description": "Portable skills for coding workflows, session handoffs, workflow design, and meeting follow-ups."
+    },
+    {
+      "name": "ticketwright",
+      "source": {
+        "source": "github",
+        "repo": "kyle-chalmers/ticketwright"
+      },
+      "description": "Ticket-driven analysis and quality checks."
+    },
+    {
+      "name": "jobwright",
+      "source": {
+        "source": "github",
+        "repo": "kyle-chalmers/jobwright"
+      },
+      "description": "Govern and safely deploy orchestration jobs."
+    },
+    {
+      "name": "healwright",
+      "source": {
+        "source": "github",
+        "repo": "kyle-chalmers/healwright"
+      },
+      "description": "Build and audit self-healing data jobs."
+    },
+    {
+      "name": "streamsnow",
+      "source": {
+        "source": "github",
+        "repo": "kyle-chalmers/streamsnow"
+      },
+      "description": "Build and ship governed Streamlit apps in Snowflake."
+    },
+    {
+      "name": "ai-data-security",
+      "source": {
+        "source": "github",
+        "repo": "kyle-chalmers/ai-data-security"
+      },
+      "description": "Audit secrets, AI configuration, and data access."
+    }
+  ]
+}

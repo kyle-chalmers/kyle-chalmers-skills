@@ -1,0 +1,11 @@
+.internal/
+.planning/
+prompts/
+.ai-friend-review/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+.env.*
+

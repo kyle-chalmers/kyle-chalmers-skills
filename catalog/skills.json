@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "categories": {
+    "session-management": "Session management",
+    "coding-workflows": "Coding workflows",
+    "workflow-design": "Workflow design",
+    "meetings": "Meetings",
+    "data-engineering": "Data engineering",
+    "analytics": "Analytics",
+    "security": "Security"
+  },
+  "skills": [
+    {
+      "name": "next-session-prompt",
+      "path": "skills/next-session-prompt",
+      "category": "session-management",
+      "description": "Capture unfinished work as a resume prompt."
+    },
+    {
+      "name": "ai-friend-review",
+      "path": "skills/ai-friend-review",
+      "category": "coding-workflows",
+      "description": "Run other locally configured AI agents as read-only reviewers."
+    },
+    {
+      "name": "skill-chain",
+      "path": "skills/skill-chain",
+      "category": "workflow-design",
+      "description": "Design and scaffold a repeatable workflow as a chain of skills."
+    },
+    {
+      "name": "git-ship",
+      "path": "skills/git-ship",
+      "category": "coding-workflows",
+      "description": "Commit, push, and open a pull request; merge only when requested."
+    },
+    {
+      "name": "encourage",
+      "path": "skills/encourage",
+      "category": "coding-workflows",
+      "description": "Reset a stalled agent around a concrete next experiment."
+    },
+    {
+      "name": "meeting-to-tickets",
+      "path": "skills/meeting-to-tickets",
+      "category": "meetings",
+      "description": "Draft scoped tickets from a transcript and an editable template."
+    }
+  ],
+  "external_suites": [
+    {
+      "name": "ticketwright",
+      "category": "data-engineering",
+      "repository": "kyle-chalmers/ticketwright",
+      "description": "Ticket-driven analysis and quality checks."
+    },
+    {
+      "name": "jobwright",
+      "category": "data-engineering",
+      "repository": "kyle-chalmers/jobwright",
+      "description": "Govern and safely deploy orchestration jobs."
+    },
+    {
+      "name": "healwright",
+      "category": "data-engineering",
+      "repository": "kyle-chalmers/healwright",
+      "description": "Build and audit self-healing data jobs."
+    },
+    {
+      "name": "streamsnow",
+      "category": "analytics",
+      "repository": "kyle-chalmers/streamsnow",
+      "description": "Build and ship governed Streamlit apps in Snowflake."
+    },
+    {
+      "name": "ai-data-security",
+      "category": "security",
+      "repository": "kyle-chalmers/ai-data-security",
+      "description": "Audit secrets, AI configuration, and data access."
+    }
+  ],
+  "linked_resources": [
+    {
+      "repository": "kyle-chalmers/gdd",
+      "kind": "legacy-workflow-suite",
+      "reason": "Four repository-coupled skills and seven commands; evaluate alongside Ticketwright before retirement."
+    },
+    {
+      "repository": "kyle-chalmers/channel-patterns-analyzer",
+      "kind": "application-skill",
+      "reason": "write-notion-report depends on the channel analyzer application."
+    },
+    {
+      "repository": "kyle-chalmers/quality-check-spec-demo",
+      "kind": "project-example",
+      "reason": "wire-length-qc uses project-specific quality-control fixtures."
+    },
+    {
+      "repository": "dbt-labs/dbt-agent-skills",
+      "kind": "third-party",
+      "reason": "dbt tutorial installs upstream skills; preserve upstream attribution."
+    },
+    {
+      "repository": "kyle-chalmers/clean-claude-code-debug-logs",
+      "kind": "legacy-command",
+      "reason": "Advertised command and supporting script remain available in their original repository."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "imported_on": "2026-10-21",
+  "skills": [
+    {
+      "name": "next-session-prompt",
+      "category": "session-management",
+      "source_repository": "kyle-chalmers/next-session-prompt",
+      "source_commit": "ca4799b2b4d7f9cc977faa0bae7a0f540f99cfc2",
+      "source_path": "skills/next-session-prompt",
+      "files": [
+        {
+          "original_path": "skills/next-session-prompt/SKILL.md",
+          "destination_path": "skills/next-session-prompt/SKILL.md",
+          "original_blob_sha": "54952479fdf03b0eee90edcd7a7b7ffc27e47bd6"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "name": "ai-friend-review",
+      "category": "coding-workflows",
+      "source_repository": "kyle-chalmers/ai-friend-review",
+      "source_commit": "c4e0e782bb875275a9dca37a417525773130a058",
+      "source_path": "skills/ai-friend-review",
+      "files": [
+        {
+          "original_path": "skills/ai-friend-review/SKILL.md",
+          "destination_path": "skills/ai-friend-review/SKILL.md",
+          "original_blob_sha": "5c66cee7d235e8f31b14cd754c11ae04929ea454"
+        },
+        {
+          "original_path": "skills/ai-friend-review/agents/openai.yaml",
+          "destination_path": "skills/ai-friend-review/agents/openai.yaml",
+          "original_blob_sha": "d0e3aeda37101058ab7801feebd14543e4a653ba"
+        },
+        {
+          "original_path": "skills/ai-friend-review/references/multi-ai-review-research.md",
+          "destination_path": "skills/ai-friend-review/references/multi-ai-review-research.md",
+          "original_blob_sha": "7ea43f3618b913ec9de99a6697833a65547fa50d"
+        },
+        {
+          "original_path": "skills/ai-friend-review/scripts/discover_agents.py",
+          "destination_path": "skills/ai-friend-review/scripts/discover_agents.py",
+          "original_blob_sha": "cdd373597b199786962620094ae3b48c53b9780b"
+        },
+        {
+          "original_path": "skills/ai-friend-review/scripts/run_review.py",
+          "destination_path": "skills/ai-friend-review/scripts/run_review.py",
+          "original_blob_sha": "28d9b0c6a185079f13d1f311b2bfa6f38ca436eb"
+        }
+      ],
+      "changes": [
+        "Keep generated review prompts, raw outputs, and reports untracked; report existing tracked artifacts without deleting them."
+      ],
+      "changed_files": [
+        "skills/ai-friend-review/SKILL.md"
+      ]
+    },
+    {
+      "name": "skill-chain",
+      "category": "workflow-design",
+      "source_repository": "kyle-chalmers/skill-chain",
+      "source_commit": "accf3a258b8931aebe82c3351d783e47ddc92c10",
+      "source_path": "skills/skill-chain",
+      "files": [
+        {
+          "original_path": "skills/skill-chain/SKILL.md",
+          "destination_path": "skills/skill-chain/SKILL.md",
+          "original_blob_sha": "db765fd4154c37f1a540e6fba5b4b8c6a3cc3f2e"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "name": "git-ship",
+      "category": "coding-workflows",
+      "source_repository": "kyle-chalmers/data-ai-reference",
+      "source_commit": "48ace400d189f429fab226c7832ee0fdd06077dc",
+      "source_path": "videos/ai_coding_agent_tips/git-ship",
+      "files": [
+        {
+          "original_path": "videos/ai_coding_agent_tips/git-ship/SKILL.md",
+          "destination_path": "skills/git-ship/SKILL.md",
+          "original_blob_sha": "a149f2ed74acd5b1e37f61a3312ee3d20dca854e"
+        }
+      ],
+      "changes": [
+        "Remove automatic git restore cleanup so uncommitted work is preserved.",
+        "Require an affirmative merge request and successful repository checks before merging.",
+        "Remove hardcoded co-author identity.",
+        "Document proportional AI review and report unavailable or failed reviewers; no claim of an enforced gate."
+      ],
+      "changed_files": [
+        "skills/git-ship/SKILL.md"
+      ]
+    },
+    {
+      "name": "encourage",
+      "category": "coding-workflows",
+      "source_repository": "kyle-chalmers/data-ai-reference",
+      "source_commit": "48ace400d189f429fab226c7832ee0fdd06077dc",
+      "source_path": "videos/ai_coding_agent_tips/encourage",
+      "files": [
+        {
+          "original_path": "videos/ai_coding_agent_tips/encourage/RESEARCH.md",
+          "destination_path": "skills/encourage/RESEARCH.md",
+          "original_blob_sha": "0c1189f93d6d6816ea60682678bdd4a8e635c082"
+        },
+        {
+          "original_path": "videos/ai_coding_agent_tips/encourage/SKILL.md",
+          "destination_path": "skills/encourage/SKILL.md",
+          "original_blob_sha": "8bbe4e961e70d7583f04767a7d776b5c5c256657"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "name": "meeting-to-tickets",
+      "category": "meetings",
+      "source_repository": "kyle-chalmers/data-ai-reference",
+      "source_commit": "48ace400d189f429fab226c7832ee0fdd06077dc",
+      "source_path": "videos/meeting_transcript_to_jira/skill/meeting-to-tickets",
+      "files": [
+        {
+          "original_path": "videos/meeting_transcript_to_jira/skill/meeting-to-tickets/SKILL.md",
+          "destination_path": "skills/meeting-to-tickets/SKILL.md",
+          "original_blob_sha": "91aea6721c953f7491befdc1c8456fcad2c3ddef"
+        },
+        {
+          "original_path": "videos/meeting_transcript_to_jira/skill/meeting-to-tickets/TEMPLATE.md",
+          "destination_path": "skills/meeting-to-tickets/TEMPLATE.md",
+          "original_blob_sha": "be455c857e129b75de832245f6b18674ebd69c73"
+        }
+      ],
+      "changes": []
+    }
+  ],
+  "supporting_imports": [
+    {
+      "source_repository": "kyle-chalmers/ai-friend-review",
+      "original_path": "tests/test_scripts.py",
+      "destination_path": "tests/test_ai_friend_review.py",
+      "original_blob_sha": "4ea60410a34cd1130501c0324251e66e7902c983",
+      "changes": [
+        "Isolate AI_FRIEND_REVIEWER_RANKING in the default-selection test so user overrides do not contaminate the test."
+      ]
+    }
+  ]
+}
