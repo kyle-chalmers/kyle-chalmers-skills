@@ -14,6 +14,7 @@ Pick the task you want help with. Each skill is a folder containing `SKILL.md` a
 | Coding workflows | [Encourage](skills/encourage/) | Reset a stalled agent around a concrete next experiment. |
 | Workflow design | [Skill Chain](skills/skill-chain/) | Design a repeatable workflow and scaffold the skills for its steps. |
 | Meetings | [Meeting to Tickets](skills/meeting-to-tickets/) | Draft scoped tickets from a transcript using an editable template. |
+| Analytics | [Metric View Dashboard](skills/metric-view-dashboard/) | Build a live Claude Dashboard on a Databricks metric view and prove its numbers. |
 
 The folders stay directly under `skills/` so agents can discover them consistently. Categories are browsing metadata in [the catalog](catalog/skills.json). Each skill keeps one maintained source.
 
@@ -39,7 +40,7 @@ cd kyle-chalmers-skills
 python3 scripts/install.py --skill next-session-prompt --agent codex
 ```
 
-Use `--agent claude` for Claude Code. `--all` selects all six portable skills. `--dest /path/to/skills` supports other folder-based loaders. The installer copies each complete skill and refuses to overwrite an existing file, folder, or symlink. Back up and remove an older installation deliberately before replacing it.
+Use `--agent claude` for Claude Code. `--all` selects all seven portable skills. `--dest /path/to/skills` supports other folder-based loaders. The installer copies each complete skill and refuses to overwrite an existing file, folder, or symlink. Back up and remove an older installation deliberately before replacing it.
 
 For Claude Code's plugin loader:
 
@@ -73,7 +74,7 @@ AI Friend Review has an [inherited CLI compatibility report](https://github.com/
 - [Migration and retirement status](docs/migration.md)
 - [Original sources and revisions](catalog/provenance.json)
 
-Existing repository URLs remain useful for historical material. This repository is the maintained home for the six portable skills above.
+Existing repository URLs remain useful for historical material. This repository is the maintained home for the seven portable skills above.
 
 ## Contribute
 

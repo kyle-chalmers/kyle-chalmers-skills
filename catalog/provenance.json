@@ -133,6 +133,32 @@
         }
       ],
       "changes": []
+    },
+    {
+      "name": "metric-view-dashboard",
+      "category": "analytics",
+      "source_repository": "kyle-chalmers/kyle-chalmers-skills",
+      "source_commit": null,
+      "source_path": "skills/metric-view-dashboard",
+      "authored_here": true,
+      "files": [
+        {
+          "original_path": "skills/metric-view-dashboard/SKILL.md",
+          "destination_path": "skills/metric-view-dashboard/SKILL.md",
+          "original_blob_sha": "f3fe8d34b6307b9300ed2a057dccb779d39ddac1"
+        },
+        {
+          "original_path": "skills/metric-view-dashboard/references/databricks.md",
+          "destination_path": "skills/metric-view-dashboard/references/databricks.md",
+          "original_blob_sha": "d4d3a2aa4146f863f29e134711a99ac2898706c6"
+        },
+        {
+          "original_path": "skills/metric-view-dashboard/references/prompt-template.md",
+          "destination_path": "skills/metric-view-dashboard/references/prompt-template.md",
+          "original_blob_sha": "d29e56cd08bd8e5d0b868b3cc058d99111be7a3a"
+        }
+      ],
+      "changes": []
     }
   ],
   "supporting_imports": [
