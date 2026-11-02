@@ -45,6 +45,12 @@
       "path": "skills/meeting-to-tickets",
       "category": "meetings",
       "description": "Draft scoped tickets from a transcript and an editable template."
+    },
+    {
+      "name": "metric-view-dashboard",
+      "path": "skills/metric-view-dashboard",
+      "category": "analytics",
+      "description": "Build a live Claude Dashboard on a Databricks metric view and prove its numbers."
     }
   ],
   "external_suites": [
