@@ -52,4 +52,4 @@ Selected setup guides, diagrams and examples now live under [tutorials/](../tuto
 
 The Snowflake comparison was revised against current official documentation. The original Snowflake-Labs MCP setup guide remains as a dated tutorial snapshot with the upstream deprecation notice and a link to the managed server. Other examples retain their original version context; this migration does not certify live execution.
 
-Twenty YouTube description updates are prepared. Live publication and readback remain pending.
+Twenty YouTube descriptions were updated through YouTube Studio on November 17, 2026. All twenty descriptions matched the prepared final text on independent readback. A complete scan of 312 upload descriptions found no remaining reference to either retired repository name. The original resource labels were preserved, except the retired repository name itself. Titles, tags and visibility matched their previous values.

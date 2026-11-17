@@ -38,7 +38,7 @@ Titles, tags, chapter timestamps, and other description text were preserved. Mee
 
 ## Current tutorial locations, November 17, 2026
 
-The earlier migration status above is historical. The former reference repository is now private. Public tutorial material is being relocated to [tutorials/](../tutorials/README.md), and twenty description updates are prepared. Publication and live verification remain pending.
+The earlier migration status above is historical. The former reference repository is now private. Public tutorial material is available under [tutorials/](../tutorials/README.md), with original instruction and configuration examples under [examples/](../examples/README.md). Twenty descriptions were updated in YouTube Studio on November 17, 2026 and verified by independent readback. A complete scan of 312 upload descriptions found no remaining reference to either retired repository name.
 
 | Tutorial | Maintained materials |
 |---|---|
