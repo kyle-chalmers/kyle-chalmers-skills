@@ -1,0 +1,770 @@
+{
+  "migrated_on": "2026-11-17",
+  "source_repository": "kyle-chalmers/data-ai-reference",
+  "source_commit": "5d0d6b46f2d2aae88f4ef84d83fcf45c184ba15f",
+  "scope": "Selected tutorial resources; excludes workshop exports, private query outputs, presentation notes and duplicate maintained skills. Relative links are repaired and retired repository links redirected. Technical examples retain their original version context.",
+  "files": [
+    {
+      "source_path": "videos/ai_coding_agent_tips/README.md",
+      "destination_path": "tutorials/ai_coding_agent_tips/README.md",
+      "source_blob_sha": "33659110e6ae4d9214dd2a601887abb8a11b517b",
+      "destination_sha256": "20981207ff4f044c748c6359d16894509ee566cc35c6fa286567bd77449a94df"
+    },
+    {
+      "source_path": "videos/ai_coding_agent_tips/diagram.excalidraw",
+      "destination_path": "tutorials/ai_coding_agent_tips/diagram.excalidraw",
+      "source_blob_sha": "d31a5cd49b3f66c262cbbedefa1c717fa3105436",
+      "destination_sha256": "bd132d2a2ae7f96fdf4f692aeeeb119b2cd11b2dc07b216b9ed30a711a1427f7"
+    },
+    {
+      "source_path": "videos/ai_coding_agent_tips/diagram.png",
+      "destination_path": "tutorials/ai_coding_agent_tips/diagram.png",
+      "source_blob_sha": "17c232dc504f28f79844c0503696cd6d70c56c47",
+      "destination_sha256": "fbcf98808b06fd97012fcbbe28e7fdc01ec45c14f14432e19ceb33d84823412b"
+    },
+    {
+      "source_path": "videos/ai_coding_agent_tips/global_context_examples/AGENTS.md",
+      "destination_path": "tutorials/ai_coding_agent_tips/global_context_examples/AGENTS.md",
+      "source_blob_sha": "f74cbafb427233a113b800f81df77405bcddb0b8",
+      "destination_sha256": "ca5cf300a1a4684a79ced8d5aba1cf429023734070bceb479de3e09df9573235"
+    },
+    {
+      "source_path": "videos/ai_coding_agent_tips/global_context_examples/CLAUDE.md",
+      "destination_path": "tutorials/ai_coding_agent_tips/global_context_examples/CLAUDE.md",
+      "source_blob_sha": "f74cbafb427233a113b800f81df77405bcddb0b8",
+      "destination_sha256": "ca5cf300a1a4684a79ced8d5aba1cf429023734070bceb479de3e09df9573235"
+    },
+    {
+      "source_path": "videos/ai_coding_tools_setup/README.md",
+      "destination_path": "tutorials/ai_coding_tools_setup/README.md",
+      "source_blob_sha": "651443fa64c5e2c730ce3c59e0daab3be0c0c88a",
+      "destination_sha256": "08a5af6e35aadd71272d963dad5409e836c4040ac343f73f71cbf7e55590a2df"
+    },
+    {
+      "source_path": "videos/ai_coding_tools_setup/images/diagram.excalidraw",
+      "destination_path": "tutorials/ai_coding_tools_setup/images/diagram.excalidraw",
+      "source_blob_sha": "3b7a48a4b84faba6d42c2ca6524227c668071ad2",
+      "destination_sha256": "bde102d6a0492125adfbb690ea03d70c2da9e3386c2770546420761be63d75e7"
+    },
+    {
+      "source_path": "videos/ai_coding_tools_setup/images/diagram.png",
+      "destination_path": "tutorials/ai_coding_tools_setup/images/diagram.png",
+      "source_blob_sha": "fb89d888e55960c0c2eb1f0ec8d65f8398357e5d",
+      "destination_sha256": "2a145a154aabb6084072241f6aba9d6dd2dd53d9185c8e83d03133c210fb7e14"
+    },
+    {
+      "source_path": "videos/anthropic_self_service_analytics/README.md",
+      "destination_path": "tutorials/anthropic_self_service_analytics/README.md",
+      "source_blob_sha": "a1753672dc08e1f944f5811fd0361ee0304c0070",
+      "destination_sha256": "80abc4598700e55686e69ed8748a584e5a39e221dc47028c9c4c7774b8f69798"
+    },
+    {
+      "source_path": "videos/anthropic_self_service_analytics/images/master-canvas.excalidraw",
+      "destination_path": "tutorials/anthropic_self_service_analytics/images/master-canvas.excalidraw",
+      "source_blob_sha": "0ac913b254b292f9d7c382ac67566397c5bc352d",
+      "destination_sha256": "8abfb7cbdd0def70dbd1c5bf5aca5c23f88baa9ab5f9132038ec832eb2316630"
+    },
+    {
+      "source_path": "videos/anthropic_self_service_analytics/images/master-canvas.png",
+      "destination_path": "tutorials/anthropic_self_service_analytics/images/master-canvas.png",
+      "source_blob_sha": "f3a46fa5f952b1d31409eaf203a23c9d41324533",
+      "destination_sha256": "1b80115cedc6dd543c540e25e4514bf85e4f289a5779dad3c015fc424968c03c"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/README.md",
+      "destination_path": "tutorials/apache_iceberg_explained/README.md",
+      "source_blob_sha": "6e4e0d8eeceaa55b83d2952d29704902f0397dbf",
+      "destination_sha256": "68a9244f2e43b478847dfb5821db976a9e6e7d049a8f80b2c3082b4cda6e842c"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-anatomy.excalidraw",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-anatomy.excalidraw",
+      "source_blob_sha": "02fc94fb4f6ac0c5c4426c9e6704c185e6c5ce56",
+      "destination_sha256": "d6bba6b792f54e75c3e92812892ce32aae0f73daba0bb0d92449d0b437e8455d"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-anatomy.png",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-anatomy.png",
+      "source_blob_sha": "bc90c8c902c489296844362bbb5f6ac722e9cdd7",
+      "destination_sha256": "fae1ff7763aeed16ad163c0fbc9d3c144d817e76d10e9020fa4626821894659a"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-here-to-stay.excalidraw",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-here-to-stay.excalidraw",
+      "source_blob_sha": "a8dd0f0c45261e63926f79e9d35ca77efffa3eed",
+      "destination_sha256": "adae1d04e77935e2d185f67f016a309e33019bcbf9370897a1a31c7701aaaf16"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-here-to-stay.png",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-here-to-stay.png",
+      "source_blob_sha": "08525adfe166f8f9931bfd3931e6a84426e2ead7",
+      "destination_sha256": "d30cbe29a0e3c611471a3483816e26c6839e143573029296ee51c60116adba75"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-mechanics.excalidraw",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-mechanics.excalidraw",
+      "source_blob_sha": "6cc24d6a210295c5a90108e44c50cf15ba372a74",
+      "destination_sha256": "a249dfaf53670fbdfee8e8a3c2a3535fb1bba8e940f4c558e92624f7d4b6167d"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-mechanics.png",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-mechanics.png",
+      "source_blob_sha": "d50ecd26d1e1b7236cbc8ee78578a1e50a5a64b5",
+      "destination_sha256": "352103d7cbd0707e22cd087786d4e433a342342df4c469dcd42170e86420edad"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-why-now.excalidraw",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-why-now.excalidraw",
+      "source_blob_sha": "7b9dc18a908ad5627efb53879c1cf102ff7e17f5",
+      "destination_sha256": "752774d31e4833c5db2bb6f007f18b02696e0f58b1d1166c2d0ca9ea2d3268cd"
+    },
+    {
+      "source_path": "videos/apache_iceberg_explained/images/iceberg-why-now.png",
+      "destination_path": "tutorials/apache_iceberg_explained/images/iceberg-why-now.png",
+      "source_blob_sha": "69f3dd6eebd651c4598604e90fe29421b78fb102",
+      "destination_sha256": "f61bd6739484f2620cb95c0f407f925c6464f1ecce0a4d69d39ed8ff2d2342c5"
+    },
+    {
+      "source_path": "videos/claude_code_overview/README.md",
+      "destination_path": "tutorials/claude_code_overview/README.md",
+      "source_blob_sha": "7eadcfcc62d67cb439d3c2b2412948ab0861546a",
+      "destination_sha256": "68fb5707ed6dfc01b3fd33c123132fae267a28b9b3b6389db1cfc21cdb1fba58"
+    },
+    {
+      "source_path": "videos/claude_code_overview/images/approaching_compaction.png",
+      "destination_path": "tutorials/claude_code_overview/images/approaching_compaction.png",
+      "source_blob_sha": "308460e0f43541a2cdaa567e5cbc01aca18629fc",
+      "destination_sha256": "b99ea8a4eb5a53914be452dbc79682011ac585380384e4716a83223d1f58441b"
+    },
+    {
+      "source_path": "videos/claude_code_overview/images/compaction_complete.png",
+      "destination_path": "tutorials/claude_code_overview/images/compaction_complete.png",
+      "source_blob_sha": "23ebb2dd8180be426611356c1cb5794d37207171",
+      "destination_sha256": "5c287875ae4875db68aad0ce1e23863d5bc1044bd4c79a31c50e9ea719e65c4f"
+    },
+    {
+      "source_path": "videos/claude_code_overview/images/compaction_occurring.png",
+      "destination_path": "tutorials/claude_code_overview/images/compaction_occurring.png",
+      "source_blob_sha": "9e39a14754ebb764f7d3e60f007e7c7a95ee834f",
+      "destination_sha256": "7dd379e7bcaf439e416d62807e0480c3d85443c1f3fbf7a6ef355e0c55006b9c"
+    },
+    {
+      "source_path": "videos/claude_code_vs_cursor/README.md",
+      "destination_path": "tutorials/claude_code_vs_cursor/README.md",
+      "source_blob_sha": "31ad392a49cc44a3220ce140908fcca5cd887509",
+      "destination_sha256": "2a11405d1b65f5a1174d1dfa7d10a7a437f5e7f125380aa526a96de78ed9e2a1"
+    },
+    {
+      "source_path": "videos/claude_code_vs_cursor/instructions/cursor_setup.md",
+      "destination_path": "tutorials/claude_code_vs_cursor/instructions/cursor_setup.md",
+      "source_blob_sha": "5fa264d169d88e992d5329894753dc7e6322711c",
+      "destination_sha256": "12a79a4b1be23d47f634037127e285c1a16450234fce40b3bd576a1c08824aa7"
+    },
+    {
+      "source_path": "videos/claude_code_vs_cursor/instructions/demo_prompt.md",
+      "destination_path": "tutorials/claude_code_vs_cursor/instructions/demo_prompt.md",
+      "source_blob_sha": "cdf0d87edec6415fea38143c6bf884cf36ab3937",
+      "destination_sha256": "e9fefc982bfe3f0c5d97c28b82402bd1317b769e706bb180136b69f746b63978"
+    },
+    {
+      "source_path": "videos/claude_dashboards_databricks_metric_views/README.md",
+      "destination_path": "tutorials/claude_dashboards_databricks_metric_views/README.md",
+      "source_blob_sha": "4cb6bca4e9ac0cebc968ccda8ee38aa8dd977f85",
+      "destination_sha256": "625c9f9a151284cb6b5c5bd307f25d5825ff16fdd3f93d2f2273fde6eb7092de"
+    },
+    {
+      "source_path": "videos/claude_dashboards_databricks_metric_views/prompts/dashboard_prompts.md",
+      "destination_path": "tutorials/claude_dashboards_databricks_metric_views/prompts/dashboard_prompts.md",
+      "source_blob_sha": "f28c6875021b2994d2f31a23984d8231d18a9c8c",
+      "destination_sha256": "d2e5517f1be6fdbaacad6fd116114eeaac1b8ef9b540627f72d2cf7e21e6571b"
+    },
+    {
+      "source_path": "videos/claude_dashboards_databricks_metric_views/sql/01_create_demo_table.sql",
+      "destination_path": "tutorials/claude_dashboards_databricks_metric_views/sql/01_create_demo_table.sql",
+      "source_blob_sha": "2d547d3b66cebd706fff4ff284eae3c2c219f0c2",
+      "destination_sha256": "a66f54e78158bc35e4172f3184438eba7c0fe205696e7bd5fa761b0f1074465a"
+    },
+    {
+      "source_path": "videos/claude_dashboards_databricks_metric_views/sql/02_metric_view.sql",
+      "destination_path": "tutorials/claude_dashboards_databricks_metric_views/sql/02_metric_view.sql",
+      "source_blob_sha": "49a7c4f6280315f19f8301b998c12cf9e70600e9",
+      "destination_sha256": "e41b58c43303b145967e16f5364be89a57964d84492f230f7931ccad7cf91657"
+    },
+    {
+      "source_path": "videos/claude_dashboards_databricks_metric_views/sql/03_tie_out.sql",
+      "destination_path": "tutorials/claude_dashboards_databricks_metric_views/sql/03_tie_out.sql",
+      "source_blob_sha": "6e25e8cae49eb4df02bdc3bce96abbc8c961d0f2",
+      "destination_sha256": "44e6edf301674959381bbf2087fdcffd0ecf838978188cf6842aa02502d68208"
+    },
+    {
+      "source_path": "videos/claude_dashboards_databricks_metric_views/sql/04_refresh_test.sql",
+      "destination_path": "tutorials/claude_dashboards_databricks_metric_views/sql/04_refresh_test.sql",
+      "source_blob_sha": "a7a078e85868ebc04a222a1bfe55dc681ebcd647",
+      "destination_sha256": "1f6f529f1be6b5d9026452127733c03c54f8b521defbc16aa04c033d4e62a1de"
+    },
+    {
+      "source_path": "videos/claude_dashboards_databricks_metric_views/sql/05_service_principal_alternative.sql",
+      "destination_path": "tutorials/claude_dashboards_databricks_metric_views/sql/05_service_principal_alternative.sql",
+      "source_blob_sha": "270c853d7309a5d6274ea76f3fa249623a195694",
+      "destination_sha256": "6053b5a60c6091b0f41a627de9c6ff9ce597f91b51ee1c55da9fc5fc1eedf329"
+    },
+    {
+      "source_path": "videos/claude_databricks_mcp_connectors/README.md",
+      "destination_path": "tutorials/claude_databricks_mcp_connectors/README.md",
+      "source_blob_sha": "7ed545a74add7953145bf06088d5dd6ca4ad825e",
+      "destination_sha256": "4123ce890db6fd0829b9ce648d9b370d2bcc419fae23e9d46d36cec07d56ad0a"
+    },
+    {
+      "source_path": "videos/claude_databricks_mcp_connectors/examples/ai_search_index.json",
+      "destination_path": "tutorials/claude_databricks_mcp_connectors/examples/ai_search_index.json",
+      "source_blob_sha": "700babd3480f69e83ea59d053af8d318af0ea42b",
+      "destination_sha256": "1a5ac73f5f02dbaf469c115991389fa9c65677eca8712890b0a660d06be13bdd"
+    },
+    {
+      "source_path": "videos/claude_databricks_mcp_connectors/examples/bakehouse_reviews_table.sql",
+      "destination_path": "tutorials/claude_databricks_mcp_connectors/examples/bakehouse_reviews_table.sql",
+      "source_blob_sha": "9e02be00a975501004c6a95f866c0e99917fff49",
+      "destination_sha256": "da1fc6f9f28eda8c13d061b0a51ad6dd16faff70555c8c9400980c5b45dd95a2"
+    },
+    {
+      "source_path": "videos/claude_databricks_mcp_connectors/examples/franchise_scorecard.sql",
+      "destination_path": "tutorials/claude_databricks_mcp_connectors/examples/franchise_scorecard.sql",
+      "source_blob_sha": "2781e380e0a8cc158af1b1131bbc9d9956c120dc",
+      "destination_sha256": "cdd9306792934ec0bf4a00a8d20373046e8ffe0ed7774d969e6307fc4a3f4a8d"
+    },
+    {
+      "source_path": "videos/claude_databricks_mcp_connectors/examples/oauth_app.json",
+      "destination_path": "tutorials/claude_databricks_mcp_connectors/examples/oauth_app.json",
+      "source_blob_sha": "6fdf0b8feceb281b7ebe18f545c7eafa3c0ab492",
+      "destination_sha256": "16beed276abe0d25db1fc8b8dffd46493f4b81d1f34257718cdfcf4ae6b49d62"
+    },
+    {
+      "source_path": "videos/data_analytics_age_of_ai/README.md",
+      "destination_path": "tutorials/data_analytics_age_of_ai/README.md",
+      "source_blob_sha": "1c1ad1d4395e18c418ec9825ab6e1fb6311dfe0d",
+      "destination_sha256": "c25f299687f2724bf1cb5a44ff8a235fa89ad0d4b4f354c941f18b1646f29d1c"
+    },
+    {
+      "source_path": "videos/data_analytics_age_of_ai/analysis/next_location_analysis.py",
+      "destination_path": "tutorials/data_analytics_age_of_ai/analysis/next_location_analysis.py",
+      "source_blob_sha": "659b0a466311314682dc41e81e384a1d88b42145",
+      "destination_sha256": "2896fe58bd17ab3776d5960796b630c4a593328da0ac3bff7adf33bcdb9faef4"
+    },
+    {
+      "source_path": "videos/data_analytics_age_of_ai/analysis/revenue_per_competitor.png",
+      "destination_path": "tutorials/data_analytics_age_of_ai/analysis/revenue_per_competitor.png",
+      "source_blob_sha": "85d70dd06d720668a96fb7f6b414c8f5e53249fb",
+      "destination_sha256": "c05501dfc0731716855442ede8cb779951217f6aa29311d5c193e8df5abb4187"
+    },
+    {
+      "source_path": "videos/data_analytics_age_of_ai/sample_data/coffee_chain_locations.csv",
+      "destination_path": "tutorials/data_analytics_age_of_ai/sample_data/coffee_chain_locations.csv",
+      "source_blob_sha": "4b2a9e5fa39a3a86b552261a03ab654b1ec9b834",
+      "destination_sha256": "bcc96a411bf8edb56e8cfef010e8a9469be11d5ce0cb8cacf4a1a4a28f256c48"
+    },
+    {
+      "source_path": "videos/integrating_ai_and_snowflake/README.md",
+      "destination_path": "tutorials/integrating_ai_and_snowflake/README.md",
+      "source_blob_sha": "1816c95f3308f0ac72e8c751179925fee1f0b7d3",
+      "destination_sha256": "772481c64813cf1f28c3d8f06c72617ad7164c17f1a1c4b6ac9d45565b49cc68"
+    },
+    {
+      "source_path": "videos/integrating_ai_and_snowflake/instructions/README.md",
+      "destination_path": "tutorials/integrating_ai_and_snowflake/instructions/README.md",
+      "source_blob_sha": "8d67db2cbc8d0f03c9b2e37a3e4df7e6fb0771ff",
+      "destination_sha256": "ead42b809209478084f3f0585dfd54c31876c8edb55aa5507cd1809eaf68c6b2"
+    },
+    {
+      "source_path": "videos/integrating_ai_and_snowflake/instructions/SNOWFLAKE_CLI_SETUP.md",
+      "destination_path": "tutorials/integrating_ai_and_snowflake/instructions/SNOWFLAKE_CLI_SETUP.md",
+      "source_blob_sha": "1819625a2bdef3af7ea3dcda7bdd03307f037930",
+      "destination_sha256": "b45fd028ca8fe098fefd1344de8c3d982d9e1bdda32e63f672475a3e76a403c0"
+    },
+    {
+      "source_path": "videos/integrating_ai_and_snowflake/instructions/SNOWFLAKE_MCP_SETUP.md",
+      "destination_path": "tutorials/integrating_ai_and_snowflake/instructions/SNOWFLAKE_MCP_SETUP.md",
+      "source_blob_sha": "da5681b88c7f2ac284d653328ede6cecbc7d75b3",
+      "destination_sha256": "0c19da4be178cd939bfccca8a97cd4227e2572382025ff839c122b9c1d5ac158"
+    },
+    {
+      "source_path": "videos/integrating_ai_and_snowflake/instructions/TROUBLESHOOTING_MCP.md",
+      "destination_path": "tutorials/integrating_ai_and_snowflake/instructions/TROUBLESHOOTING_MCP.md",
+      "source_blob_sha": "a29229f495ae2e83605ebf368baccb0836e1a482",
+      "destination_sha256": "2c8770205394e694ee5904c87f2cbc7c063e2a2b6c54abfde8c9e26b01756d78"
+    },
+    {
+      "source_path": "videos/integrating_ai_and_snowflake/snowflake_cli_v_mcp_comparison/SNOWFLAKE_CLI_VS_MCP.md",
+      "destination_path": "tutorials/integrating_ai_and_snowflake/snowflake_cli_v_mcp_comparison/SNOWFLAKE_CLI_VS_MCP.md",
+      "source_blob_sha": "e53b5dea6816be657ee08dcd1aab365de0225a5e",
+      "destination_sha256": "884b57f16efce88ff7701e25d207fd7deed0f1a5ab03dc4d3ad39b0f070a92f0"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/CLAUDE.md",
+      "destination_path": "tutorials/integrating_aws_s3_athena/CLAUDE.md",
+      "source_blob_sha": "a0484765d2baaf9bf5298a5f6073d27b4c6fcaf6",
+      "destination_sha256": "c06d18a97e50eade55f6b30a7ca30f78fd08540c71b89bc3ed2efcde7212ce76"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/README.md",
+      "destination_path": "tutorials/integrating_aws_s3_athena/README.md",
+      "source_blob_sha": "98db8d79ef92fabc8b23cc2dd20f7797355dcbaa",
+      "destination_sha256": "4679a2455fe3a9b197b02b0b689078195e07a86ae3d43878d7dc33229b80c050"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/example_workflow/README.md",
+      "destination_path": "tutorials/integrating_aws_s3_athena/example_workflow/README.md",
+      "source_blob_sha": "2657601c50638725c23cea1e6e58aae3ba2ba7b6",
+      "destination_sha256": "32f383f403948815d1de5d6139252480ca46e7e7d9abafba6dbcdf761c8a7437"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/final_deliverables/1_create_athena_infrastructure.sql",
+      "destination_path": "tutorials/integrating_aws_s3_athena/final_deliverables/1_create_athena_infrastructure.sql",
+      "source_blob_sha": "d96584eec168291f2d4371cf8e6b288026b1d326",
+      "destination_sha256": "d5133f20ea49710e26ab36c60e6483fa3f1190bcfc41ca72aa00cd60b8615de5"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/final_deliverables/2_pivot_all_data.sql",
+      "destination_path": "tutorials/integrating_aws_s3_athena/final_deliverables/2_pivot_all_data.sql",
+      "source_blob_sha": "76d28f774d04dcdfdcda17a3a9ca7f060ed83769",
+      "destination_sha256": "a678c23215e4aaaf564efb685cdfba017d72be17dd47a7b265acc38b66ec2041"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/final_deliverables/3_us_top_5_years.sql",
+      "destination_path": "tutorials/integrating_aws_s3_athena/final_deliverables/3_us_top_5_years.sql",
+      "source_blob_sha": "e3d10d5c902bae65565bf88e4f18024d949f7a72",
+      "destination_sha256": "30e3b00d27338537f01c0a553855e3bf25e83c52d1558294ae611a1f40ebecdc"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/final_deliverables/pivoted_temperature_data.csv",
+      "destination_path": "tutorials/integrating_aws_s3_athena/final_deliverables/pivoted_temperature_data.csv",
+      "source_blob_sha": "447355840433fdffb42a926b9b6ef26e9eea58dd",
+      "destination_sha256": "5eecd718c351930dc89a5d13a32986ce1748e75dc661309ff1570e601a5d14a8"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/instructions/AWS_CLI_SETUP.md",
+      "destination_path": "tutorials/integrating_aws_s3_athena/instructions/AWS_CLI_SETUP.md",
+      "source_blob_sha": "d4ed009d3913703faafd9b71f1e7f176fde84978",
+      "destination_sha256": "8a96f9f8c16dc967043fc75e18b680b208e8d9cda9340984067cb581d251e85e"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/instructions/IAM_PERMISSIONS_SETUP.md",
+      "destination_path": "tutorials/integrating_aws_s3_athena/instructions/IAM_PERMISSIONS_SETUP.md",
+      "source_blob_sha": "3e832b007d3c7093628a881e04ef32246c526cd1",
+      "destination_sha256": "df10ae753a40087f3d0e419ec9269df81e44d509f47460e2284c921b461c7be4"
+    },
+    {
+      "source_path": "videos/integrating_aws_s3_athena/sample_data/global_surface_temperature.csv",
+      "destination_path": "tutorials/integrating_aws_s3_athena/sample_data/global_surface_temperature.csv",
+      "source_blob_sha": "b79b69f9ea3a18ee55160d74e09ef147a96e19c3",
+      "destination_sha256": "b0ed870891390e91ec71e5c80218f129c97b30d3ad47652258d5213802388601"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/CLAUDE.md",
+      "destination_path": "tutorials/integrating_claude_and_databricks/CLAUDE.md",
+      "source_blob_sha": "a88c755f39fcfeac00da62975c60678b6650d516",
+      "destination_sha256": "dcf1257267ddf9d74d3514fb29c484af289c4f78f9c34321581af812d33ec4fd"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/README.md",
+      "destination_path": "tutorials/integrating_claude_and_databricks/README.md",
+      "source_blob_sha": "b815faf2f8ddbfc2d88fe798f121c5f3e65a075d",
+      "destination_sha256": "c9aebf0104a47d1fbc9eb52d12aacae9b730068bf0e60684167d758936b25ae2"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/README.md",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/README.md",
+      "source_blob_sha": "8dd7274c93a15ccaf95c430c48d1ea7bd605a8db",
+      "destination_sha256": "21f6e3ff01aceb7de5004b4b2b63f7dd58993dc67cb65fe1204901cd57929f3b"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/customer_analysis/README.md",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/customer_analysis/README.md",
+      "source_blob_sha": "96775e940245f0b7bc709571a91c3185fc55acc7",
+      "destination_sha256": "3a40302302054dca8d62628c177da05f357bec188df4103f1b7233ac3196f9f8"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/customer_analysis/customer_analysis.py",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/customer_analysis/customer_analysis.py",
+      "source_blob_sha": "ac2b026ab80564f8f8b6bd3f1f658c738e955519",
+      "destination_sha256": "b6caebd3ae776fd4779eb789f10aef404bafd77437d2d6620f7271852ebd9068"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/customer_analysis/job_config.json",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/customer_analysis/job_config.json",
+      "source_blob_sha": "198c97f4fc986bf2077f5c0c50bb4831bab0808d",
+      "destination_sha256": "e540d5620542b59fe2b20d7090a3773ea00b78dd240053ef03432215d4b898ad"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/README.md",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/README.md",
+      "source_blob_sha": "397986af99d463773456d52b1ebbcb566b379a9f",
+      "destination_sha256": "c1fefbadfabc0abdb837820a3becd181466a3d215fcab56722dbcb1e00bd45c7"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/failing_job_config.json",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/failing_job_config.json",
+      "source_blob_sha": "c28bd8839b9141d95a04ecd1120890b0b37ea481",
+      "destination_sha256": "57b124177cd395ca7333f7ceaf106e26c80789cd547bc692960b6cae47fe3f37"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/fixed_job_config.json",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/fixed_job_config.json",
+      "source_blob_sha": "e1fa504d93f2e5022949bccf739af89d0ab37435",
+      "destination_sha256": "e64297d0cf46e2deb9bf8e18e058248350aa810f5add8857961529486b5812d6"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/product_sales_analysis.py",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/product_sales_analysis.py",
+      "source_blob_sha": "80531f7846f28c250b15449133cacc729d43d271",
+      "destination_sha256": "9ebd49c0cf9e1bcc7538b908f70467e235081cb0e0580889887d04954cfd5f5a"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/product_sales_analysis_failing.py",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/product_sales_analysis_failing.py",
+      "source_blob_sha": "bf5e743e805020d5d8fc08c84276f70ec7b597d6",
+      "destination_sha256": "f49270c14272defa140acf89c19122b50434e907d935265cb75528c048557aaa"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/product_sales_job_config.json",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/product_sales_job_config.json",
+      "source_blob_sha": "78b9e05559d38545ad37528429c36beb86b8bb2a",
+      "destination_sha256": "308dd89ce3ef005780ebad837074ea18c660ff83b03b6e9f38232904efc54deb"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/test_product_sales_config.json",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/test_product_sales_config.json",
+      "source_blob_sha": "e0e80013e12084ecd7f4473d7431f9f7fbb819d9",
+      "destination_sha256": "540b4a4140e977390d953c71e6e4a51c458b02e6ff92e63ae904e38e34aeade4"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/example_workflow/product_sales/update_job_config.json",
+      "destination_path": "tutorials/integrating_claude_and_databricks/example_workflow/product_sales/update_job_config.json",
+      "source_blob_sha": "70876febbaf6aae5e7bdb1dd3f35fc974f22284a",
+      "destination_sha256": "d45723ddd1496aead71ec73572f8947b93ccc4d254a3a9d6ac709c672d0ced21"
+    },
+    {
+      "source_path": "videos/integrating_claude_and_databricks/instructions/DATABRICKS_CLI_SETUP.md",
+      "destination_path": "tutorials/integrating_claude_and_databricks/instructions/DATABRICKS_CLI_SETUP.md",
+      "source_blob_sha": "1924ec6d79248829cb30035e75f0535788d476fc",
+      "destination_sha256": "1e3db762949a155ceac9619a0c9ffea60d849aa31661e93de1a71cc17d290803"
+    },
+    {
+      "source_path": "videos/integrating_jira_and_ticket_taking/ATLASSIAN_CLI_SETUP.md",
+      "destination_path": "tutorials/integrating_jira_and_ticket_taking/ATLASSIAN_CLI_SETUP.md",
+      "source_blob_sha": "3726eb6dbec99762a6159ba78ac4c46cdc5a4eff",
+      "destination_sha256": "f3469ce339f74ac3b59564f044e9d0e1d344a07ff53dabdc8cfcc5023019af67"
+    },
+    {
+      "source_path": "videos/integrating_jira_and_ticket_taking/ATLASSIAN_MCP_SETUP.md",
+      "destination_path": "tutorials/integrating_jira_and_ticket_taking/ATLASSIAN_MCP_SETUP.md",
+      "source_blob_sha": "f2006a9b4de8f4ab53c6cfbc80e3e2c972132331",
+      "destination_sha256": "7785ea33ac150dc4f6037b00bce3ce2b505909b2540b634afcde347310043efa"
+    },
+    {
+      "source_path": "videos/integrating_jira_and_ticket_taking/README.md",
+      "destination_path": "tutorials/integrating_jira_and_ticket_taking/README.md",
+      "source_blob_sha": "ddf855e346e027593009c4c73b5d3c332da4441e",
+      "destination_sha256": "9f2835fd586ec450dca5a3ad4565c95d8537a174768ea859e1500c6e19f8f371"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/README.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/README.md",
+      "source_blob_sha": "0bab1c118112f5a98f15382d473ab894fbf501ae",
+      "destination_sha256": "0ff3622cf717e4e1cd1ab2e9fa89921448d3ddad5a88cf9fd078f9e8b743c4c5"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/TICKET_TEMPLATE.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/TICKET_TEMPLATE.md",
+      "source_blob_sha": "38b97c01c46e2fb0bbd07d26dc5e8c30a561b04b",
+      "destination_sha256": "3e5058aab79f084a28ed1c33303ca48317ffa4646f923e481c1731ce9f164703"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/TRANSCRIPT_SOURCES.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/TRANSCRIPT_SOURCES.md",
+      "source_blob_sha": "a8389353a0d17f8fe31a0a50cce749703d899168",
+      "destination_sha256": "fde3f321f11e254224e58cb296ec3abfe54a14baa6a0f7406c389ce0a417a8a2"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/CLAUDE.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/CLAUDE.md",
+      "source_blob_sha": "6745e3054ef3a4140c48834318f7ffc634c21c5d",
+      "destination_sha256": "aae74a9f9b72c023de042c5906bc6ab4316a3584690492522996ad3130454582"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/meeting-notes-notion.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/meeting-notes-notion.md",
+      "source_blob_sha": "303009ff4d52203d3b9ca5723785361d5816fe06",
+      "destination_sha256": "0a69b6ff6e9af4fd229e339a1f55f64c4ecca3ff7611b45f5175d13d23d42502"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/meeting-script.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/meeting-script.md",
+      "source_blob_sha": "c4422801887e17d197db8929bb8bae4d25c09e89",
+      "destination_sha256": "357ae12e39ee08b634f81ca2c7df7460138e7cc5dd2694c52aa684a22d5c640a"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/meeting-transcript.txt",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/meeting-transcript.txt",
+      "source_blob_sha": "cf35aaddceda51aa34f87a9f103460e9443990aa",
+      "destination_sha256": "ca77facaf317ebc991298ef0d950aa16716fb378476d5d0baeac822983b281cd"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/meeting-transcript.vtt",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/meeting-transcript.vtt",
+      "source_blob_sha": "385bb542d401f84043d6e753cc119b841c47672e",
+      "destination_sha256": "49bb49a6a73e1ff1d1d972c39a6a63984ac7dd14ef5f1033fdb20cd76ec743aa"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/prompts/01-extract-candidates.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/prompts/01-extract-candidates.md",
+      "source_blob_sha": "f07d87c2decc75fc79d35999d2db91ab84f8e961",
+      "destination_sha256": "a0ed2065fb5e4825f93f831f354145be176649941fe8b7eab8c1d3c61d5d3c4c"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/prompts/02-clarify.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/prompts/02-clarify.md",
+      "source_blob_sha": "3bfb4a31f0cdec20f5ed3cf49f39b6a99a8cf3f7",
+      "destination_sha256": "ad628a8243cbf337571b478aa5da74f058672a4e819120bb761f6210f32587fc"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/demo/prompts/03-draft-and-ship.md",
+      "destination_path": "tutorials/meeting_transcript_to_jira/demo/prompts/03-draft-and-ship.md",
+      "source_blob_sha": "e74b391222bd6eca07379d4828353d950b992413",
+      "destination_sha256": "605eda5aa7cfbd0177f2bf1a81228e9a35bd47f91fb78700b79386dc33cba535"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/images/data-request-fields.excalidraw",
+      "destination_path": "tutorials/meeting_transcript_to_jira/images/data-request-fields.excalidraw",
+      "source_blob_sha": "3bb324aca261288fb9e5ca896ccf3aade8436e73",
+      "destination_sha256": "17160d5594312dff23476838a7c5327e4bbaa77b3c7fc9a601ad77098c2c5e0e"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/images/data-request-fields.png",
+      "destination_path": "tutorials/meeting_transcript_to_jira/images/data-request-fields.png",
+      "source_blob_sha": "207dea799c164008a8ecd62579c2d510c5c4a2ed",
+      "destination_sha256": "7015c97db7e6fe9638ab45052422de76d892ef19b26c0d76a8e930a313f1af5d"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/images/transcript-sources.excalidraw",
+      "destination_path": "tutorials/meeting_transcript_to_jira/images/transcript-sources.excalidraw",
+      "source_blob_sha": "cb1c2aa96ca92a413c47e755d39f1f6719996f15",
+      "destination_sha256": "9a1ae80bc8c8cf593d9602e542021e805fa53fb94b426fec78f0cd2159221663"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/images/transcript-sources.png",
+      "destination_path": "tutorials/meeting_transcript_to_jira/images/transcript-sources.png",
+      "source_blob_sha": "fa5f9f7b9422fc4626bfc95fbd394356e04f2f7c",
+      "destination_sha256": "fe4c0958f849bb222ced073b9a2fa3ed2f2c8153b2cd0df1a1415c86ee91242c"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/images/transcript-switch.excalidraw",
+      "destination_path": "tutorials/meeting_transcript_to_jira/images/transcript-switch.excalidraw",
+      "source_blob_sha": "7f531ce7a5c87ae3df8664cdb31105d3904c4adf",
+      "destination_sha256": "42b3ca6e8600449b10f219c129a737eea8b0fe25658c11c8503869958e09667d"
+    },
+    {
+      "source_path": "videos/meeting_transcript_to_jira/images/transcript-switch.png",
+      "destination_path": "tutorials/meeting_transcript_to_jira/images/transcript-switch.png",
+      "source_blob_sha": "36ece7d9369199592376259930b4d21ef20a410a",
+      "destination_sha256": "654d88a3a4be32792c0a05cfd232648561aa4685cb037d0c26c5289c83c4ea8f"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/CLAUDE.md",
+      "destination_path": "tutorials/prp_data_object_video/CLAUDE.md",
+      "source_blob_sha": "1a9ef8fff7507bef7681a97647ad0b90982c3457",
+      "destination_sha256": "7444035635d440b207b88eecc43417b2d693f5dcf72c697ed1c6256e568bf35b"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/PRPs/01_simple_tpch/INITIAL.md",
+      "destination_path": "tutorials/prp_data_object_video/PRPs/01_simple_tpch/INITIAL.md",
+      "source_blob_sha": "8c42c342b3c6b4b198bbb1c532571cfd7cacfca3",
+      "destination_sha256": "659c52e4c64c45096b85785d5bb1f4bdf045107cec9e0b1c75aae7054c5f5eb3"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/PRPs/01_simple_tpch/snowflake-data-object-customer-order-summary.md",
+      "destination_path": "tutorials/prp_data_object_video/PRPs/01_simple_tpch/snowflake-data-object-customer-order-summary.md",
+      "source_blob_sha": "f9127b28be1ed2195719e39bb8709c7e402267b1",
+      "destination_sha256": "d7a03d90b6e02e3f51fd5f9c886c023c1f271e130cbd207cec8bb12b68f49fd9"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/PRPs/02_multi_grain_analytics/INITIAL.md",
+      "destination_path": "tutorials/prp_data_object_video/PRPs/02_multi_grain_analytics/INITIAL.md",
+      "source_blob_sha": "5b558d24a46b1730e5b472fb3d062682c29ee07c",
+      "destination_sha256": "ed4cb39f3bf3e5dc31badf5e872bf12df6346c6a9460a607d92a4adaf7aa57f7"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/PRPs/02_multi_grain_analytics/snowflake-data-object-order-analytics-multi-grain.md",
+      "destination_path": "tutorials/prp_data_object_video/PRPs/02_multi_grain_analytics/snowflake-data-object-order-analytics-multi-grain.md",
+      "source_blob_sha": "436a440429324c66518507677170877da6403ecf",
+      "destination_sha256": "c1e5f62c829930c6661cfc03653a20aa0218e45457c90512829cbe2838584c6b"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/PRPs/templates/data-object-initial.md",
+      "destination_path": "tutorials/prp_data_object_video/PRPs/templates/data-object-initial.md",
+      "source_blob_sha": "ad42788f4f0a661498c228f52749e621485720b5",
+      "destination_sha256": "199bababed04ce43d6ed16d65248fa821ec7916a8206cb4c770148dab18bdc9f"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/README.md",
+      "destination_path": "tutorials/prp_data_object_video/README.md",
+      "source_blob_sha": "1f4e7f8554c475dc14809acd6faf6b0295a38c71",
+      "destination_sha256": "e5adc165f85d923292cc34ae9f3e1655e7e56ecf0196d4ec9d288973d5214b92"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/images/tpch_schema.png",
+      "destination_path": "tutorials/prp_data_object_video/images/tpch_schema.png",
+      "source_blob_sha": "17d585cc046a51f20f643d0f4c8d3efa61e83b29",
+      "destination_sha256": "eff6e78d5405c26bdcb484307a84486ea7df1da9877bd79e7d946f9c0f443e78"
+    },
+    {
+      "source_path": "videos/prp_data_object_video/images/what_we_will_learn.jpg",
+      "destination_path": "tutorials/prp_data_object_video/images/what_we_will_learn.jpg",
+      "source_blob_sha": "b50487d95f1d2c4a56bfd0a938d7c2c9a475bf19",
+      "destination_sha256": "efc606ddd5a2a27fd7017a2cc1d21c6bf027578c294ffde3910a6d5dfa1e0bd3"
+    },
+    {
+      "source_path": ".claude/commands/generate-data-object-prp.md",
+      "destination_path": "tutorials/prp_data_object_video/commands/generate-data-object-prp.md",
+      "source_blob_sha": "38933642e0ae297b63875c93d08bbf89ec3ef4a2",
+      "destination_sha256": "801ee08551d9463fcc1799dcf663b8a3f17da4480200e02dc260670bf6e75151"
+    },
+    {
+      "source_path": ".claude/commands/prp-data-object-execute.md",
+      "destination_path": "tutorials/prp_data_object_video/commands/prp-data-object-execute.md",
+      "source_blob_sha": "a3d7e1b33750e7522f63fcc18112a1ff79a2e28a",
+      "destination_sha256": "1ca143883b526d72f1e98edfa99303e091fedfc7f2c749506a8a9962cf94e5db"
+    },
+    {
+      "source_path": "CLAUDE.md",
+      "destination_path": "examples/CLAUDE.md",
+      "source_blob_sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "destination_sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "source_path": "AGENTS.md",
+      "destination_path": "examples/AGENTS.md",
+      "source_blob_sha": "569d90df6cf1dc975d3046a4f01c81def462596f",
+      "destination_sha256": "03d36fc818709b2f48b82c556edb56399985b16cc7e40fd2b0050f5d72cec454"
+    },
+    {
+      "source_path": ".claude/settings.json",
+      "destination_path": "examples/settings.json",
+      "source_blob_sha": "82b0635ea8464909f96215d2388519d579d1210b",
+      "destination_sha256": "7eac12b1c49374256f5f879c8045ed8131d1420e2a658fc21657bc7d781e91a7"
+    },
+    {
+      "source_path": ".claude/commands/initiate-request.md",
+      "destination_path": "examples/commands/initiate-request.md",
+      "source_blob_sha": "f5f61e68142bead151e5f11824f3254602f07880",
+      "destination_sha256": "15ba5539ef40cbfc906a75ac8127cd18ff3b536da0f06dce8b35e96d396374d1"
+    },
+    {
+      "source_path": ".claude/commands/jira-ticket-done.md",
+      "destination_path": "examples/commands/jira-ticket-done.md",
+      "source_blob_sha": "33a8e64044c09fe17bff66ce1e8a6fee86a59a45",
+      "destination_sha256": "f5cc8811f0761dc1ca0f4ae877a5c220a9d18d83120f4b072fa0ed433d2f0275"
+    },
+    {
+      "source_path": ".claude/commands/google-drive-backup.md",
+      "destination_path": "examples/commands/google-drive-backup.md",
+      "source_blob_sha": "41d8ae5aeca56bbc9a7d33d22c1353010b973bbe",
+      "destination_sha256": "176fcac4b2b8e620f4c12d9a4c6652e24c94aa8e6ff6509fd9254289f8b32e48"
+    },
+    {
+      "source_path": ".claude/commands/merge-work.md",
+      "destination_path": "examples/commands/merge-work.md",
+      "source_blob_sha": "12008a41740ce04b9db279aa3e3b1881af7b3f07",
+      "destination_sha256": "990a9c660217d2c203e885a2851535d0047c11a1acabb9615f07e36c8a9aa843"
+    },
+    {
+      "source_path": ".claude/commands/save-work.md",
+      "destination_path": "examples/commands/save-work.md",
+      "source_blob_sha": "b30f41cc1526f9492e2e6ee96ea2581a3d244677",
+      "destination_sha256": "0ba4ccaa15111eb5b2f1e30aa60edd471dafb5382e6c74ea2ef532c206a28060"
+    },
+    {
+      "source_path": ".claude/commands/review-work.md",
+      "destination_path": "examples/commands/review-work.md",
+      "source_blob_sha": "0f8221531416e5e4eea2a82091d1150f412b50bc",
+      "destination_sha256": "3aad98b6bbeaf64f667409b3a3d335477433959d62b3a787a4452ccfcb97bccb"
+    },
+    {
+      "source_path": ".claude/commands/summarize-session.md",
+      "destination_path": "examples/commands/summarize-session.md",
+      "source_blob_sha": "e811cba0cc561da83019cf4d5d5e0ad593b1d262",
+      "destination_sha256": "7d3715ae313f796f6428b4366e3b8066a3d298ef7c1763c51b56722592f00d81"
+    },
+    {
+      "source_path": ".claude/agents/jira-ticket-transitioner.md",
+      "destination_path": "examples/agents/jira-ticket-transitioner.md",
+      "source_blob_sha": "8288a92b3bb66c42b7befd5d3ce6af00b19185f4",
+      "destination_sha256": "87123515d3f39f3ab6343fee26d8eeaeee3d9f83b57cdaad7da752db2d9a50bb"
+    },
+    {
+      "source_path": ".claude/agents/code-review-agent.md",
+      "destination_path": "examples/agents/code-review-agent.md",
+      "source_blob_sha": "5114fbcb6c2e33bebd28c71e6e4aac466fe0e435",
+      "destination_sha256": "f052fd9cf1a6439b4421be3f0498d9fe39b43a6a19869b101216e28fb8fc79ba"
+    },
+    {
+      "source_path": ".claude/agents/sql-quality-agent.md",
+      "destination_path": "examples/agents/sql-quality-agent.md",
+      "source_blob_sha": "af7ca3a17d9b12e12e438d59946cd1a06445efa6",
+      "destination_sha256": "5863d8b85c4272f6756ade5d8e7801bedb364f72f90b15bdcc752592a59d15a7"
+    },
+    {
+      "source_path": ".claude/agents/qc-validator-agent.md",
+      "destination_path": "examples/agents/qc-validator-agent.md",
+      "source_blob_sha": "cf300042cedb725d4dffe84cf3c09d4d55be8dd2",
+      "destination_sha256": "d6768bd71125f9b15f3ea9f0cfc844b6e5ec0c3c874e3884fa853d0ccbc9687b"
+    },
+    {
+      "source_path": ".claude/agents/docs-review-agent.md",
+      "destination_path": "examples/agents/docs-review-agent.md",
+      "source_blob_sha": "23fb57b183e841f40f82e2c3a3dba037dd4db9c4",
+      "destination_sha256": "f4967b84d885dd757301368177b0c1b3c3d7c2fca298644dfea0acc733a83028"
+    },
+    {
+      "source_path": "videos/az_emerging_tech_meetup/datasets/demo1_dataset.md",
+      "destination_path": "tutorials/az_emerging_tech_meetup/datasets/demo1_dataset.md",
+      "source_blob_sha": "395177c5a20984c9e24222a49d71d006d083dbbd",
+      "destination_sha256": "d7b2c6391faaafb592d61fa3e5159ebb05fc2b88513226467d16010482ae1dd0"
+    },
+    {
+      "source_path": "videos/az_tech_week_workshop/context_examples/CLAUDE_md_starter.md",
+      "destination_path": "tutorials/az_tech_week_workshop/context_examples/CLAUDE_md_starter.md",
+      "source_blob_sha": "37a29f44ae4117cf261f94c46dc27187f8ebb542",
+      "destination_sha256": "be278e542c5d52df71d2f9757312a3239398c21ced762a8c2ea5b11d6448c23f"
+    },
+    {
+      "source_path": "videos/az_tech_week_workshop/context_examples/agents_and_skills_starter.md",
+      "destination_path": "tutorials/az_tech_week_workshop/context_examples/agents_and_skills_starter.md",
+      "source_blob_sha": "90fe233ff40354dc43493e5e91575c170ada6956",
+      "destination_sha256": "442efeaac08b8ba318428b47ae582b6218eda743ea5d48036dedad3f4c63e471"
+    },
+    {
+      "source_path": "videos/az_tech_week_workshop/images/context_engineering_framework.png",
+      "destination_path": "tutorials/az_tech_week_workshop/images/context_engineering_framework.png",
+      "source_blob_sha": "fc730a60b5e7f4fe2d48907aa2b6ba057694205b",
+      "destination_sha256": "5b348ef5189d53075220d4b63c7e697c1a86dcdc1da173f6fee4635a74713b74"
+    },
+    {
+      "source_path": "videos/az_tech_week_workshop/images/context_engineering_framework.excalidraw",
+      "destination_path": "tutorials/az_tech_week_workshop/images/context_engineering_framework.excalidraw",
+      "source_blob_sha": "5234b30b1c9855cf1b99270dc278dde1253e3da4",
+      "destination_sha256": "3ad260f7ae194c9d141317a62df11d07ad5a61afd8778a11ac7a8a843c848030"
+    }
+  ],
+  "intentional_changes": [
+    "Repair relative links and move original repository URLs to current maintained resources.",
+    "Replace real-user paths and credential-shaped examples with explicit placeholders.",
+    "Revise the Snowflake comparison using current primary documentation and add the upstream MCP deprecation notice.",
+    "Exclude raw workshop exports, private analysis outputs, presentation notes and duplicate skill implementations.",
+    "Preserve other tutorial examples as dated snapshots, without claiming live technical validation.",
+    "Remove production-only narration and recording preparation embedded in otherwise public guide files.",
+    "Describe retired commands and review roles as historical examples, avoiding file labels that falsely imply their implementations live in Ticketwright.",
+    "Update example paths from videos/ to tutorials/ and remove obsolete source PR metadata.",
+    "Normalize imported CSV line endings to LF without changing field values.",
+    "Preserve the original instruction, settings, command and agent examples at exact tutorial destinations so existing description labels can be kept. Remove source-specific documentation links and generalize the repository-name setting."
+  ]
+}

@@ -67,6 +67,10 @@ For example, install `/plugin install streamsnow@kyle-chalmers-skills` after add
 
 AI Friend Review has an [inherited CLI compatibility report](https://github.com/kyle-chalmers/kyle-chalmers-skills/issues/1) to verify. Offline tests exercise fake CLIs and do not establish compatibility with every installed reviewer version.
 
+## Tutorial guides
+
+[Setup guides, diagrams and examples](tutorials/README.md) from the channel live here alongside the installable skills. Start with [Snowflake CLI and MCP](tutorials/integrating_ai_and_snowflake/README.md), [Jira](tutorials/integrating_jira_and_ticket_taking/README.md), or [Databricks](tutorials/integrating_claude_and_databricks/README.md). Ticket-driven analysis continues in [Ticketwright](https://github.com/kyle-chalmers/ticketwright).
+
 ## Tutorials and migration
 
 - [Related videos and the links affected by consolidation](docs/videos.md)

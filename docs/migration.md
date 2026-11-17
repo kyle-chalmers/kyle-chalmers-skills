@@ -44,3 +44,12 @@ Live reviewer authentication and live installations of the external suites are n
 All 43 offline tests pass. Both plugin manifests pass strict validation. [GitHub Actions validation](https://github.com/kyle-chalmers/kyle-chalmers-skills/actions/runs/39730198236) passed after the initial publication.
 
 The standalone AI Friend Review repository had one open compatibility report. It remains readable at its original URL, and the outstanding items are tracked in [the consolidated repository issue](https://github.com/kyle-chalmers/kyle-chalmers-skills/issues/1). No claim is made that these inherited CLI compatibility reports were resolved by moving the files.
+
+
+## Tutorial migration, November 17, 2026
+
+Selected setup guides, diagrams and examples now live under [tutorials/](../tutorials/README.md). This extends the earlier skill-only migration. The old reference repository is private, so its links should no longer be used as public entry points. The [tutorial provenance](../catalog/tutorial-provenance.json) records the selected source blobs and intentional edits. Workshop exports, private analysis results and presentation notes are excluded.
+
+The Snowflake comparison was revised against current official documentation. The original Snowflake-Labs MCP setup guide remains as a dated tutorial snapshot with the upstream deprecation notice and a link to the managed server. Other examples retain their original version context; this migration does not certify live execution.
+
+Twenty YouTube description updates are prepared. Live publication and readback remain pending.
