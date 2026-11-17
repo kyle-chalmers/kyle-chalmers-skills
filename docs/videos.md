@@ -34,3 +34,28 @@ The approved update replaces thirteen old repository URLs across five full-lengt
 | [Turn Meetings Into Jira Tickets With Claude Code](https://youtu.be/9FlqHryv22o) | [Meeting to Tickets](../skills/meeting-to-tickets/SKILL.md) and [TEMPLATE.md](../skills/meeting-to-tickets/TEMPLATE.md) | Update pending |
 
 Titles, tags, chapter timestamps, and other description text were preserved. Meeting to Tickets still links to its setup guide, sample transcript, and meeting script in Data AI Reference. The original repositories remain readable as historical entry points. Production descriptions and verification records are maintained in the private content repository.
+
+
+## Current tutorial locations, November 17, 2026
+
+The earlier migration status above is historical. The former reference repository is now private. Public tutorial material is being relocated to [tutorials/](../tutorials/README.md), and twenty description updates are prepared. Publication and live verification remain pending.
+
+| Tutorial | Maintained materials |
+|---|---|
+| ai coding agent tips | [Guide](../tutorials/ai_coding_agent_tips/README.md) |
+| ai coding tools setup | [Guide](../tutorials/ai_coding_tools_setup/README.md) |
+| anthropic self service analytics | [Guide](../tutorials/anthropic_self_service_analytics/README.md) |
+| apache iceberg explained | [Guide](../tutorials/apache_iceberg_explained/README.md) |
+| claude code overview | [Guide](../tutorials/claude_code_overview/README.md) |
+| claude code vs cursor | [Guide](../tutorials/claude_code_vs_cursor/README.md) |
+| claude dashboards databricks metric views | [Guide](../tutorials/claude_dashboards_databricks_metric_views/README.md) |
+| claude databricks mcp connectors | [Guide](../tutorials/claude_databricks_mcp_connectors/README.md) |
+| data analytics age of ai | [Guide](../tutorials/data_analytics_age_of_ai/README.md) |
+| integrating ai and snowflake | [Guide](../tutorials/integrating_ai_and_snowflake/README.md) |
+| integrating aws s3 athena | [Guide](../tutorials/integrating_aws_s3_athena/README.md) |
+| integrating claude and databricks | [Guide](../tutorials/integrating_claude_and_databricks/README.md) |
+| integrating jira and ticket taking | [Guide](../tutorials/integrating_jira_and_ticket_taking/README.md) |
+| meeting transcript to jira | [Guide](../tutorials/meeting_transcript_to_jira/README.md) |
+| prp data object video | [Guide](../tutorials/prp_data_object_video/README.md) |
+
+Ticket-driven Snowflake and Jira workflows also link to [Ticketwright](https://github.com/kyle-chalmers/ticketwright). The context-engineering reporting example links to [Channel Patterns Analyzer](https://github.com/kyle-chalmers/channel-patterns-analyzer).

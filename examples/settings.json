@@ -1,0 +1,55 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write(./projects/**)",
+      "Write(./documentation/**)",
+      "Write(./videos/**)",
+      "Bash(git status)",
+      "Bash(git branch:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(ls:*)",
+      "Bash(pwd)",
+      "Bash(tree:*)",
+      "Glob",
+      "Grep"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(secrets/**)",
+      "Read(credentials/**)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(rm -rf:*)",
+      "Delete"
+    ]
+  },
+  "env": {
+    "GIT_MAIN_BRANCH": "main",
+    "REPOSITORY_NAME": "your-data-workflow",
+    "DATABASE": "ANALYTICS",
+    "WAREHOUSE": "DATA_ANALYSIS",
+    "SCHEMA": "REPORTING",
+    "DATABRICKS_PROFILE_PROD": "production",
+    "DATABRICKS_PROFILE_DEV": "development"
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash(git commit:*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'if [ $(git branch --show-current) = \"main\" ]; then echo \"ERROR: Cannot commit to main branch. Create a feature branch first.\" && exit 1; fi'"
+          }
+        ]
+      }
+    ]
+  }
+}
