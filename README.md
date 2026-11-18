@@ -12,6 +12,8 @@ Pick the task you want help with. Each skill is a folder containing `SKILL.md` a
 | Coding workflows | [AI Friend Review](skills/ai-friend-review/) | Ask other locally available AI coding agents to review work. |
 | Coding workflows | [Git Ship](skills/git-ship/) | Commit and open a pull request, with merging only when requested. |
 | Coding workflows | [Encourage](skills/encourage/) | Reset a stalled agent around a concrete next experiment. |
+| Coding workflows | [Message Codex](skills/message-codex/) | From Claude Code, message a running Codex session on the same machine and read its reply. Pairs with Message Claude. |
+| Coding workflows | [Message Claude](skills/message-claude/) | From Codex, message a running Claude Code session on the same machine and read its reply. Pairs with Message Codex. |
 | Workflow design | [Skill Chain](skills/skill-chain/) | Design a repeatable workflow and scaffold the skills for its steps. |
 | Meetings | [Meeting to Tickets](skills/meeting-to-tickets/) | Draft scoped tickets from a transcript using an editable template. |
 | Analytics | [Metric View Dashboard](skills/metric-view-dashboard/) | Build a live Claude Dashboard on a Databricks metric view and prove its numbers. |
@@ -40,7 +42,7 @@ cd kyle-chalmers-skills
 python3 scripts/install.py --skill next-session-prompt --agent codex
 ```
 
-Use `--agent claude` for Claude Code. `--all` selects all seven portable skills. `--dest /path/to/skills` supports other folder-based loaders. The installer copies each complete skill and refuses to overwrite an existing file, folder, or symlink. Back up and remove an older installation deliberately before replacing it.
+Use `--agent claude` for Claude Code. `--all` selects all nine portable skills. `--dest /path/to/skills` supports other folder-based loaders. The installer copies each complete skill and refuses to overwrite an existing file, folder, or symlink. Back up and remove an older installation deliberately before replacing it.
 
 For Claude Code's plugin loader:
 
@@ -63,7 +65,7 @@ These are maintained with their implementation, tests, and release process in th
 | Analytics | [StreamSnow](https://github.com/kyle-chalmers/streamsnow) | Build and ship governed Streamlit apps in Snowflake. |
 | Security | [AI Data Security](https://github.com/kyle-chalmers/ai-data-security) | Audit secrets, AI configuration, and data access. |
 
-For example, install `/plugin install streamsnow@kyle-chalmers-skills` after adding this marketplace. Refer to each suite's README for its runtime and setup requirements. AI Friend Review also needs configured reviewer CLIs; installing its skill does not install those programs. Meeting to Tickets drafts for human review and does not write to a tracker.
+For example, install `/plugin install streamsnow@kyle-chalmers-skills` after adding this marketplace. Refer to each suite's README for its runtime and setup requirements. AI Friend Review also needs configured reviewer CLIs; installing its skill does not install those programs. Meeting to Tickets drafts for human review and does not write to a tracker. Message Codex needs a signed-in Codex CLI that has `codex queue`; Message Claude needs Claude Code 2.1.224 or later with cross-session messaging, and the receiving session decides whether to accept peer messages. Both run on macOS or Linux with Python 3.11+. Install Message Codex where Claude Code loads skills and Message Claude where Codex does, for example `--skill message-codex --agent claude` and `--skill message-claude --agent codex`.
 
 AI Friend Review has an [inherited CLI compatibility report](https://github.com/kyle-chalmers/kyle-chalmers-skills/issues/1) to verify. Offline tests exercise fake CLIs and do not establish compatibility with every installed reviewer version.
 
@@ -78,7 +80,7 @@ AI Friend Review has an [inherited CLI compatibility report](https://github.com/
 - [Migration and retirement status](docs/migration.md)
 - [Original sources and revisions](catalog/provenance.json)
 
-Existing repository URLs remain useful for historical material. This repository is the maintained home for the seven portable skills above.
+Existing repository URLs remain useful for historical material. This repository is the maintained home for the nine portable skills above.
 
 ## Contribute
 
