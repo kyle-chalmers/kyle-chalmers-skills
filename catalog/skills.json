@@ -51,6 +51,18 @@
       "path": "skills/metric-view-dashboard",
       "category": "analytics",
       "description": "Build a live Claude Dashboard on a Databricks metric view and prove its numbers."
+    },
+    {
+      "name": "message-codex",
+      "path": "skills/message-codex",
+      "category": "coding-workflows",
+      "description": "From Claude Code, message a running local Codex session and read its reply."
+    },
+    {
+      "name": "message-claude",
+      "path": "skills/message-claude",
+      "category": "coding-workflows",
+      "description": "From Codex, message a running local Claude Code session and read its reply."
     }
   ],
   "external_suites": [

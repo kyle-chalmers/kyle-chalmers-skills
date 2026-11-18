@@ -159,6 +159,48 @@
         }
       ],
       "changes": []
+    },
+    {
+      "name": "message-codex",
+      "category": "coding-workflows",
+      "source_repository": "kyle-chalmers/kyle-chalmers-skills",
+      "source_commit": null,
+      "source_path": "skills/message-codex",
+      "authored_here": true,
+      "files": [
+        {
+          "original_path": "skills/message-codex/SKILL.md",
+          "destination_path": "skills/message-codex/SKILL.md",
+          "original_blob_sha": "acdb979631acd5778f96f5fad4e06e1bd4df785d"
+        },
+        {
+          "original_path": "skills/message-codex/scripts/codex_msg.py",
+          "destination_path": "skills/message-codex/scripts/codex_msg.py",
+          "original_blob_sha": "6341a326075f3058aef18fa0dc1a878dafc0994d"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "name": "message-claude",
+      "category": "coding-workflows",
+      "source_repository": "kyle-chalmers/kyle-chalmers-skills",
+      "source_commit": null,
+      "source_path": "skills/message-claude",
+      "authored_here": true,
+      "files": [
+        {
+          "original_path": "skills/message-claude/SKILL.md",
+          "destination_path": "skills/message-claude/SKILL.md",
+          "original_blob_sha": "649811ac3f9c83ab765d510f5235a92145be949d"
+        },
+        {
+          "original_path": "skills/message-claude/scripts/claude_msg.py",
+          "destination_path": "skills/message-claude/scripts/claude_msg.py",
+          "original_blob_sha": "6aedcb870d42e59299c953e352ec9d8e464624e0"
+        }
+      ],
+      "changes": []
     }
   ],
   "supporting_imports": [
